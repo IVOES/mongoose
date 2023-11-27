@@ -3,7 +3,7 @@ name: "CodeQL Scanning"
 
 on:
   push:
-    branches: [ "testing" ]
+    branches: [ "main", "testing" ]
     paths:
       - "Makefile"
       - "mongoose.c"
