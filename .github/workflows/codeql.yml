@@ -4,12 +4,12 @@ name: "CodeQL Scanning"
 on:
   push:
     branches: [ "main", "testing" ]
-    paths:
-      - "Makefile"
-      - "mongoose.c"
-      - "mongoose.h"
-      - test/unit-test
-      - test/mip-test
+    # paths:
+    #   - "Makefile"
+    #   - "mongoose.c"
+    #   - "mongoose.h"
+    #   - test/unit-test
+    #   - test/mip-test
   pull_request:
     branches: '*'
 
